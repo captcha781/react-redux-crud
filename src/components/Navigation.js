@@ -15,7 +15,7 @@ function Navigation({ active }) {
             </Link>
           ) : (
             <Link to="/">
-              <div className="mx-1 hover:bg-LightPurpleHover rounded-md px-2 py-1">
+              <div className="mx-1 hover:bg-slate-700 rounded-md px-2 py-1 bg-opacity-25">
                 Home
               </div>
             </Link>
@@ -29,7 +29,7 @@ function Navigation({ active }) {
             </Link>
           ) : (
             <Link to="/edit">
-              <div className="mx-1 hover:bg-LightPurpleHover rounded-md px-2 py-1">
+              <div className="mx-1 hover:bg-slate-700 rounded-md px-2 py-1 bg-opacity-25">
                 Edit
               </div>
             </Link>
@@ -43,7 +43,7 @@ function Navigation({ active }) {
             </Link>
           ) : (
             <Link to="/create">
-              <div className="mx-1 hover:bg-LightPurpleHover rounded-md px-2 py-1">
+              <div className="mx-1 hover:bg-slate-700 rounded-md px-2 py-1 bg-opacity-25">
                 Create
               </div>
             </Link>

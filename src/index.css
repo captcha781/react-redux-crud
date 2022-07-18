@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 @tailwind variants;
+
+@layer components {
+    .cardLayout{
+        @apply w-11/12 mx-auto px-3 py-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:w-full grid-flow-row-dense gap-3
+    }
+}
