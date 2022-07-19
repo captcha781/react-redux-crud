@@ -14,7 +14,7 @@ function Read() {
       .get("https://62d00f4a1cc14f8c08837daf.mockapi.io/api/redux/users")
       .then((res) => {
         dispatch(initialise(res.data));
-        console.log("useeffect runs");
+        
         setLoad(true)
       });
   }, [dispatch]);

@@ -10,6 +10,6 @@ export const userSlice = createSlice({
     }
 })
 
-export const {initialise} = userSlice.actions
+export const {initialise, setEditorial} = userSlice.actions
 
 export default userSlice.reducer
